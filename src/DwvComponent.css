@@ -1,0 +1,48 @@
+#dwv {
+  height: 90%; }
+
+.button-row {
+  text-align: center;
+}
+.MuiButton-contained.Mui-disabled
+{
+  color:blanchedalmond !important;
+  /* background-color:cornflowerblue !important; */
+  background-color:gray !important;
+}
+.MuiButton-containedPrimary {
+  color: #fff !important;
+  background-color: #20A5D6 !important;
+}
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: #20A5D6 !important;
+}
+
+/* Layers */
+.layerContainer {
+  position: relative; 
+  padding: 0;
+  margin: auto; 
+  text-align: center; 
+}
+.layer {
+  position: absolute;
+  pointer-events: none; 
+}
+.drawDiv {
+  position: absolute; pointer-events: none; }
+
+/* drag&drop */
+.dropBox {
+  margin: auto;
+  text-align: center; vertical-align: middle;
+  width: 50%; height: 75%; }
+  .dropBox p 
+  {
+    color:#20A5D6;
+  }
+.dropBoxBorder {
+  border: 5px dashed #20A5D6; /*indigo:light*/ }
+.dropBoxBorder.hover {
+  border: 5px dashed #3f51b5; /*indigo*/  }
